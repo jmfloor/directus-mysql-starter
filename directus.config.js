@@ -7,6 +7,7 @@ module.exports = function (env) {
         KEY: env.KEY,
         SECRET: env.SECRET,
 
+        HOST: '0.0.0.0',
         // Reference: https://docs.railway.app/deploy/exposing-your-app
         PORT: env.PORT,
 
